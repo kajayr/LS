@@ -4,8 +4,8 @@ export const Home = () => {
     return(
 <div className="container homeBg">
 <div className="row">
-            <div className="col-3"></div>
-            <div className="col-6 align-middle">
+            <div className="col-lg-3 col-sm-1"></div>
+            <div className="col-lg-6 col-sm-10 align-middle">
             <h4>Hi, my name is Leo and I'm a full stack java developer</h4>
             <img src={leoPic} className="img-fluid leoImg mt-2 mb-2" alt="Leo"></img>
                 <p className="text-center">
@@ -15,7 +15,7 @@ When not at work, you can find me with my wife enjoying activities related to he
 I welcome contact for Network Building via email at leo.sinani@pyramidci.com.
                 </p>
             </div>
-            <div className="col-3"></div>
+            <div className="col-lg-3 col-sm-1"></div>
         </div>
 </div>
     )

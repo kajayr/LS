@@ -29,8 +29,8 @@ Assess students understanding of material and provide customized/modified lesson
             
         </div>
         <div className="row">
-            <div className="col-3"></div>
-            <div className="col-6 align-middle">
+            <div className="col-lg-3 col-sm-1"></div>
+            <div className="col-lg-6 col-sm-10 align-middle">
             <h3>Pyramid Academy</h3>
             <img src={pyramid} className="img-fluid leoImg mt-2 mb-2" alt="microsoft"></img>
                 <p >
@@ -42,7 +42,7 @@ Experience using Git with Github and GitKraken to push commits to a repository.
                 </p>
                 <p>Technologies: Java, JavaFX, Spring, Spring Boot, Hibernate, React, GitHub, GitKraken, MySQL, MySQL Workbench, Postman </p>
             </div>
-            <div className="col-3"></div>
+            <div className="col-lg-3 col-sm-1"></div>
         </div>
 </div>
     )

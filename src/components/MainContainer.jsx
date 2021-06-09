@@ -8,7 +8,7 @@ import { BrowserRouter, Route, Switch} from 'react-router-dom' ;
 export const MainContainer = () => {
     return(
 <BrowserRouter>
-            <div className="container mt-5">
+            <div className="container mt-md-5">
                 <div className="row">
                     <Header />
                 </div>
