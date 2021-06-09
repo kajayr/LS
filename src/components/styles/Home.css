@@ -16,6 +16,12 @@
     border: groove 1px white;
     border-radius: 5px;
 }
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300&family=Orbitron:wght@500&family=Shadows+Into+Light&family=Staatliches&display=swap');
+
+.sign{
+    font-family: 'Shadows Into Light', cursive;
+}
+
 nav{
     background-color: rgba(0, 0, 0, 0.4);
     border: groove 1px white;
@@ -23,16 +29,28 @@ nav{
 
 }
 a.active.navbar-brand{
-    margin-left: 5px;
+    margin-left: 7px;
+    font-family: 'Orbitron', sans-serif;
+    
+}
+a.active.nav-link{
+    font-family: 'Staatliches', cursive;
+    font-size: 20px;
+}
+a.nav-link{
+    font-family: 'Staatliches', cursive;
+    font-size: 18px;
 }
 .container{
     color: white;
 }
 h3{
-    text-shadow: 2px 2px 5px #dbe6fd;
+    text-shadow: 1px 1px 3px #dbe6fd;
+    font-family: 'Staatliches', cursive;
 }
 h4{
-    text-shadow: 2px 2px 5px #dbe6fd;
+    text-shadow: 1px 1px 3px #dbe6fd;
+    font-family: 'Staatliches', cursive;
 }
 
 .leoImg{
@@ -49,6 +67,7 @@ p{
     position: relative;
     align-items:center;
     text-align:justify;
+    font-family: 'Gothic A1', sans-serif;
 }
 .projectImg{
     max-width: 80%;

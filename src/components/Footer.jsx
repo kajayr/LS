@@ -13,7 +13,7 @@ export const Footer = () => {
   <a href="https://github.com/kajayr" rel="noreferrer" target="_blank">
     <img className="footerLogo" src={github} alt="github" />
   </a>
-                <p className="text-center">
+                <p className="text-center sign">
 Copyright © 2021 Leo Sinani
                 </p>
             </div>
