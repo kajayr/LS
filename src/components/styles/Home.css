@@ -1,0 +1,82 @@
+.homeBg{
+    background-color: rgba(0, 0, 0, 0.4);
+    border: groove 1px white;
+    border-radius: 5px;
+    margin-top: 20px;
+    animation-name: homeBg;
+    animation-duration: 1s;
+}
+@keyframes homeBg {
+    0%   {margin-top: 100px; opacity: 0;}
+    100% {margin-top: 20px; opacity: 1;}
+  }
+
+  .footerBg{
+    background-color: rgba(0, 0, 0, 0.4);
+    border: groove 1px white;
+    border-radius: 5px;
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.4);
+    border: groove 1px white;
+    border-radius: 5px;
+
+}
+a.active.navbar-brand{
+    margin-left: 5px;
+}
+.container{
+    color: white;
+}
+h3{
+    text-shadow: 2px 2px 5px #dbe6fd;
+}
+h4{
+    text-shadow: 2px 2px 5px #dbe6fd;
+}
+
+.leoImg{
+    border-radius: 10px;
+    max-width: 150px;
+}
+.footerLogo{
+    border-radius: 10px;
+    max-width: 50px;
+    margin: 5px;
+}
+
+p{
+    position: relative;
+    align-items:center;
+    text-align:justify;
+}
+.projectImg{
+    max-width: 80%;
+    border-radius: 10px;
+    transition: .5s;
+}
+.projectImg:hover{
+    content: 'Visist';
+    opacity: .7;
+    transition: .5s;
+    cursor: pointer;
+    max-width: 70%;
+}
+
+.github{
+    text-decoration: underline;
+    color: darkkhaki;
+    font-weight: 600;
+    transition: .5s;
+}
+.github:hover{
+    color: white;
+    transition: .5s;
+}
+.educationP{
+text-align: center;
+}
+.eduLogo:hover{
+    filter: grayscale(100%);
+    transition: .5s;
+}
